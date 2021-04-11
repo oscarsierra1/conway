@@ -63,8 +63,7 @@ void setup() {
    pintar();
 }
 
-void draw() { 
-  print(frameCount, " ", vel, "\n");
+void draw() {   
   if(frameCount % vel == 0) {
     if(alf == 0) alive();
   }
